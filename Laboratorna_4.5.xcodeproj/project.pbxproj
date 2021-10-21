@@ -12,9 +12,9 @@
 		18230644270B6A5700143DA0 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 18230643270B6A5700143DA0 /* Document.m */; };
 		18230646270B6A5A00143DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18230645270B6A5A00143DA0 /* Assets.xcassets */; };
 		18230649270B6A5A00143DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18230647270B6A5A00143DA0 /* Main.storyboard */; };
-		1823064C270B6A5A00143DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1823064B270B6A5A00143DA0 /* main.m */; };
 		18230657270B6A5A00143DA0 /* Laboratorna_4_5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18230656270B6A5A00143DA0 /* Laboratorna_4_5Tests.m */; };
 		18230662270B6A5A00143DA0 /* Laboratorna_4_5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18230661270B6A5A00143DA0 /* Laboratorna_4_5UITests.m */; };
+		18230671270B6A7500143DA0 /* Laba_4_%.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1823066F270B6A7500143DA0 /* Laba_4_%.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		18230645270B6A5A00143DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18230648270B6A5A00143DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1823064A270B6A5A00143DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1823064B270B6A5A00143DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1823064D270B6A5A00143DA0 /* Laboratorna_4_5.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Laboratorna_4_5.entitlements; sourceTree = "<group>"; };
 		18230652270B6A5A00143DA0 /* Laboratorna_4.5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_4.5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18230656270B6A5A00143DA0 /* Laboratorna_4_5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_4_5Tests.m; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		1823065D270B6A5A00143DA0 /* Laboratorna_4.5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Laboratorna_4.5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18230661270B6A5A00143DA0 /* Laboratorna_4_5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Laboratorna_4_5UITests.m; sourceTree = "<group>"; };
 		18230663270B6A5A00143DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1823066F270B6A7500143DA0 /* Laba_4_%.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Laba_4_%.cpp"; sourceTree = "<group>"; };
+		18230670270B6A7500143DA0 /* Laba_4_%.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "Laba_4_%.hpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,8 @@
 		18230630270B6A5700143DA0 = {
 			isa = PBXGroup;
 			children = (
+				1823066F270B6A7500143DA0 /* Laba_4_%.cpp */,
+				18230670270B6A7500143DA0 /* Laba_4_%.hpp */,
 				1823063B270B6A5700143DA0 /* Laboratorna_4.5 */,
 				18230655270B6A5A00143DA0 /* Laboratorna_4.5Tests */,
 				18230660270B6A5A00143DA0 /* Laboratorna_4.5UITests */,
@@ -112,7 +115,6 @@
 				18230645270B6A5A00143DA0 /* Assets.xcassets */,
 				18230647270B6A5A00143DA0 /* Main.storyboard */,
 				1823064A270B6A5A00143DA0 /* Info.plist */,
-				1823064B270B6A5A00143DA0 /* main.m */,
 				1823064D270B6A5A00143DA0 /* Laboratorna_4_5.entitlements */,
 			);
 			path = Laboratorna_4.5;
@@ -264,9 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18230671270B6A7500143DA0 /* Laba_4_%.cpp in Sources */,
 				18230644270B6A5700143DA0 /* Document.m in Sources */,
 				18230641270B6A5700143DA0 /* ViewController.m in Sources */,
-				1823064C270B6A5A00143DA0 /* main.m in Sources */,
 				1823063E270B6A5700143DA0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
